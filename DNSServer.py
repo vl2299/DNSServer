@@ -77,10 +77,10 @@ dns_records = {
     },
    
     # Add more records as needed (see assignment instructions!
-    "safebank.com." : {dns.rdatatype.A: "192.168.1.102"},
-    "google.com." : {dns.rdatatype.A: "192.168.1.103"},
-    "legitsite.com" : {dns.rdatatype.A: "192.168.1.104"},
-    "yahoo.com": {dns.rdatatype.A: "192.168.1.105"},
+    "safebank.com." : {dns.rdatatype.A: "192.168.1.102",},
+    "google.com." : {dns.rdatatype.A: "192.168.1.103",},
+    "legitsite.com." : {dns.rdatatype.A: "192.168.1.104",},
+    "yahoo.com.": {dns.rdatatype.A: "192.168.1.105",},
     "nyu.edu.": {
         dns.rdatatype.A: "192.168.1.106",
         dns.rdatatype.TXT: (encrypted_value.decode("utf-8"),),
